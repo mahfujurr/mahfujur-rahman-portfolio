@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { HomeIcon } from '@heroicons/react/24/solid'
+import { BookOpenIcon, BriefcaseIcon, DocumentIcon, HomeIcon, IdentificationIcon } from '@heroicons/react/24/solid'
 const Navbar = () => {
 
     return (
@@ -11,20 +11,20 @@ const Navbar = () => {
                     <h1 className=''>Home</h1>
                 </Link>
                 <Link to='/about' className='mx-2 flex flex-col justify-center items-center hover:text-green-400'>
-                    <HomeIcon className="h-6 w-6 text-white hover:text-green-400" />
-                    <h1 className=''>Home</h1>
+                    <IdentificationIcon className="h-6 w-6 text-white hover:text-green-400" />
+                    <h1 className=''>About</h1>
                 </Link>
                 <Link to='/resume' className='mx-2 flex flex-col justify-center items-center hover:text-green-400'>
-                    <HomeIcon className="h-6 w-6 text-white hover:text-green-400" />
-                    <h1 className=''>Home</h1>
+                    <DocumentIcon className="h-6 w-6 text-white hover:text-green-400" />
+                    <h1 className=''>Resume</h1>
                 </Link>
                 <Link to='/projects' className='mx-2 flex flex-col justify-center items-center hover:text-green-400'>
-                    <HomeIcon className="h-6 w-6 text-white hover:text-green-400" />
-                    <h1 className=''>Home</h1>
+                    <BriefcaseIcon className="h-6 w-6 text-white hover:text-green-400" />
+                    <h1 className=''>Projects</h1>
                 </Link>
                 <Link to='/blog' className='mx-2 flex flex-col justify-center items-center hover:text-green-400'>
-                    <HomeIcon className="h-6 w-6 text-white hover:text-green-400" />
-                    <h1 className=''>Home</h1>
+                    <BookOpenIcon className="h-6 w-6 text-white hover:text-green-400" />
+                    <h1 className=''>Blog</h1>
                 </Link>
             </div>
         </div>
