@@ -4,7 +4,7 @@ import Navbar from '../Pages/Navbar/Navbar';
 
 const Main = () => {
     return (
-        <div className='bg-black h-screen text-white'>
+        <div className='bg-black text-white'>
             <Navbar></Navbar>
             <Outlet></Outlet>
         </div>

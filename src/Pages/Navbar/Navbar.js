@@ -14,10 +14,10 @@ const Navbar = () => {
                     <IdentificationIcon className="h-6 w-6 text-white hover:text-green-400" />
                     <h1 className=''>About</h1>
                 </Link>
-                <Link to='/resume' className='mx-2 flex flex-col justify-center items-center hover:text-green-400'>
+                <a href='https://drive.google.com/file/d/13VGl8SmATXAqcbQTT4lOlg0uGPmiRxl-/view' className='mx-2 flex flex-col justify-center items-center hover:text-green-400'>
                     <DocumentIcon className="h-6 w-6 text-white hover:text-green-400" />
                     <h1 className=''>Resume</h1>
-                </Link>
+                </a>
                 <Link to='/projects' className='mx-2 flex flex-col justify-center items-center hover:text-green-400'>
                     <BriefcaseIcon className="h-6 w-6 text-white hover:text-green-400" />
                     <h1 className=''>Projects</h1>
