@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import toast, { Toaster } from 'react-hot-toast';
 
 const Contact = () => {
     const form = useRef();
@@ -9,7 +10,8 @@ const Contact = () => {
         emailjs.sendForm('service_zrko8hb', 'template_igmphal', form.current, 'uUGYvqqqT6t4B8Kz4')
             .then((result) => {
                 console.log(result.text);
-                console.log('success');
+                toast.success('message sent successfully')
+                form.reset();
             }, (error) => {
                 console.log(error.text);
             });
@@ -38,15 +40,7 @@ const Contact = () => {
                 </div>
             </section>
 
-            {/* <form ref={form} onSubmit={sendEmail}>
-                <label>Name</label>
-                <input type="text" name="user_name" className='text-black' />
-                <label>Email</label>
-                <input type="email" name="user_email" className='text-black' />
-                <label>Message</label>
-                <textarea name="message" className='text-black' />
-                <input type="submit" value="Send" />
-            </form> */}
+            <Toaster />
         </div>
     );
 };
