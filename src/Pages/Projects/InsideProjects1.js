@@ -9,8 +9,7 @@ const InsideProjects1 = () => {
 
     return (
         <div>
-            <div className='mx-5 md:mx-24 grid grid-cols-1 lg:grid-cols-2 gap-16 mt-10'>
-                
+            <div className='mx-5 md:mx-24 grid grid-cols-1 lg:grid-cols-2 gap-16 mt-10'>               
                 <img src={recyclelibimg1} className='rounded-2xl' alt="" />
                 <img src={recyclelibimg1} className='rounded-2xl' alt="" />
                 <img src={recyclelibimg1} className='rounded-2xl' alt="" />
