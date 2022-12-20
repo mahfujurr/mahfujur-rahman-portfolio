@@ -38,15 +38,20 @@ const Projects = () => {
                                     </a>
                                 </div>
                             </div>
-                            <div className='flex mb-2'>
+                            <div className='flex '>
 
-                                <h1 className='text-blue-300 bg-blue-900/40 px-2 py-0 text-sm lg:text-base  flex font-bold  items-center rounded-lg mr-3'><FaReact className='mr-1' /> React </h1>
-                                <h1 className='text-blue-500 bg-blue-900/40 px-2 py-0 text-sm lg:text-base  flex font-bold  items-center rounded-lg mr-3'><TbBrandTailwind className='mr-2' /> Tailwind </h1>
-                                <h1 className='text-green-600 bg-green-900/40 px-2 py-0 text-sm lg:text-base  flex font-bold  items-center rounded-lg mr-3'><FaNodeJs className='mr-2' /> Node.js </h1>
-                                <h1 className='text-green-400 bg-green-900/40 px-2 py-0 text-sm lg:text-base  flex font-bold  items-center rounded-lg mr-3'><SiMongodb className='mr-1' /> MongoDB </h1>
+                                <h1 className='text-blue-300 bg-blue-900/40 px-2 py-0 my-1   flex font-bold  items-center rounded-lg mr-3'><FaReact className='mr-1' /> React </h1>
+                                <h1 className='text-blue-500 bg-blue-900/40 px-2 py-0 my-1   flex font-bold  items-center rounded-lg mr-3'><TbBrandTailwind className='mr-2' /> Tailwind </h1>
+                                <h1 className='text-green-600 bg-green-900/40 px-2 py-0 my-1   flex font-bold  items-center rounded-lg mr-3'><FaNodeJs className='mr-2' /> Node.js </h1>
+
 
 
                             </div>
+                            <div className='flex mb-2'>
+                                <h1 className='text-yellow-300 bg-yellow-900/40 px-2 py-0 my-1    flex font-bold  items-center rounded-lg mr-3'><FaJsSquare className='mr-2' /> JavaScript </h1>
+                                <h1 className='text-green-400 bg-green-900/40 px-2 py-0 my-1   flex font-bold  items-center rounded-lg mr-3'><SiMongodb className='mr-1' /> MongoDB </h1>
+                            </div>
+
                             <hr />
                             <p className='text-gray-400 pt-1'>
                                 When you buy a used book, you never know what you are going to get. Inscriptions in margins or dedications in the front page. You’re taking part in a shared history and better yet, you’re free to add your own little mark along the way too.
@@ -57,15 +62,15 @@ const Projects = () => {
                     {/*  3rd project under 1st one */}
 
                     <div className='rounded-2xl  mt-24'>
-                        <img className='object-cover rounded-t-2xl' src={yourmedico} alt="" />
+                        <img className='object-cover rounded-t-2xl' src={esportsHeroImg} alt="" />
                         <div className='p-5 border-2 border-gray-400/30 rounded-b-2xl hover:bg-white/5'>
                             <div className='flex justify-between items-center pb-5'>
-                                <h1 className='font-bold text-2xl'>Your Medico</h1>
+                                <h1 className='font-bold text-2xl'>EsportsHero</h1>
                                 <div className='flex items-center'>
-                                    <a className='mr-3' target='_blank' href='https://github.com/mahfujurr/yourmedico' rel="noreferrer">
+                                    <a className='mr-3' target='_blank' href='https://github.com/mahfujurr/esports-hero' rel="noreferrer">
                                         <BsGithub className='' />
                                     </a>
-                                    <a target='_blank' href='https://yourmedico-100da.firebaseapp.com/' rel="noreferrer">
+                                    <a target='_blank' href='https://esports-hero.netlify.app/' rel="noreferrer">
                                         <FiExternalLink className='' />
                                     </a>
                                 </div>
@@ -78,7 +83,7 @@ const Projects = () => {
                             </div>
                             <hr />
                             <p className='text-gray-400 pt-1'>
-                                You know when your smile is less than great. It’s why you hide your smile behind your hand or refuse to let anyone see your teeth. When you don’t smile, people tend to judge you harshly and think you’re unhappy even when you’re in a really good mood.
+                                The Definitive Guide 2022, These Guides provide strategy's on how to turn your gaming kills into a career.By working in close collaboration with educators, coaches, researchers, analysts, and professional players, Learn2Esport
                             </p>
                         </div>
                     </div>
@@ -88,39 +93,43 @@ const Projects = () => {
 
 
 
-
-
-
-
-
-
-
                 <div className='rounded-2xl '>
-                    <img className='object-cover rounded-t-2xl' src={esportsHeroImg} alt="" />
+                    <img className='object-cover rounded-t-2xl' src={yourmedico} alt="" />
                     <div className='p-5 border-2 border-gray-400/30 rounded-b-2xl hover:bg-white/5'>
                         <div className='flex justify-between items-center pb-5'>
-                            <h1 className='font-bold text-2xl'>EsportsHero</h1>
+                            <h1 className='font-bold text-2xl'>Your Medico</h1>
                             <div className='flex items-center'>
-                                <a className='mr-3' target='_blank' href='https://github.com/mahfujurr/esports-hero' rel="noreferrer">
+                                <a className='mr-3' target='_blank' href='https://github.com/mahfujurr/yourmedico' rel="noreferrer">
                                     <BsGithub className='' />
                                 </a>
-                                <a target='_blank' href='https://esports-hero.netlify.app/' rel="noreferrer">
+                                <a target='_blank' href='https://yourmedico-100da.firebaseapp.com/' rel="noreferrer">
                                     <FiExternalLink className='' />
                                 </a>
                             </div>
                         </div>
-                        <div className='flex mb-2'>
+                        <div className='flex'>
                             <h1 className='text-blue-300 bg-blue-900/40 px-2 py-0 text-sm lg:text-base  flex font-bold  items-center rounded-lg mr-3'><FaReact className='mr-1' /> React </h1>
                             <h1 className='text-yellow-300 bg-yellow-900/40 px-2 py-0 text-sm lg:text-base  flex font-bold  items-center rounded-lg mr-3'><FaJsSquare className='mr-2' /> JavaScript </h1>
                             <h1 className='text-blue-500 bg-blue-900/40 px-2 py-0 text-sm lg:text-base  flex font-bold  items-center rounded-lg mr-3'><TbBrandTailwind className='mr-2' /> Tailwind </h1>
 
                         </div>
+                        <div className='flex mb-2'>
+                            <h1 className='text-green-400 bg-green-900/40 px-2 py-0 my-2   flex font-bold  items-center rounded-lg mr-3'><SiMongodb className='mr-1' /> MongoDB </h1>
+                            <h1 className='text-green-600 bg-green-900/40 px-2 py-0 my-2   flex font-bold  items-center rounded-lg mr-3'><FaNodeJs className='mr-2' /> Node.js </h1>
+                        </div>
                         <hr />
                         <p className='text-gray-400 pt-1'>
-                            The Definitive Guide 2022, These Guides provide strategy's on how to turn your gaming kills into a career.By working in close collaboration with educators, coaches, researchers, analysts, and professional players, Learn2Esport
+                            You know when your smile is less than great. It’s why you hide your smile behind your hand or refuse to let anyone see your teeth. When you don’t smile, people tend to judge you harshly and think you’re unhappy even when you’re in a really good mood.
                         </p>
                     </div>
                 </div>
+
+
+
+
+
+
+
             </div>
         </div>
 
