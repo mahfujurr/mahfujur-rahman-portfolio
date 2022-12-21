@@ -61,7 +61,7 @@ const Projects = () => {
 
                     {/*  3rd project under 1st one */}
 
-                    <Link to='/p2' className='rounded-2xl  '>
+                    <Link to='/p3' className='rounded-2xl  '>
                         <img className='object-cover mt-16 rounded-t-2xl' src={esportsHeroImg} alt="" />
                         <div className='p-5 border-2 border-gray-400/30 rounded-b-2xl hover:bg-white/5'>
                             <div className='flex justify-between items-center pb-5'>
@@ -93,7 +93,7 @@ const Projects = () => {
 
 
 
-                <Link to='/p3' className='rounded-2xl '>
+                <Link to='/p2' className='rounded-2xl '>
                     <img className='object-cover rounded-t-2xl' src={yourmedico} alt="" />
                     <div className='p-5 border-2 border-gray-400/30 rounded-b-2xl hover:bg-white/5'>
                         <div className='flex justify-between items-center pb-5'>
