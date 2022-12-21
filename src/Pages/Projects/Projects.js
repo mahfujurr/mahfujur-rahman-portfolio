@@ -61,8 +61,8 @@ const Projects = () => {
 
                     {/*  3rd project under 1st one */}
 
-                    <div className='rounded-2xl  mt-24'>
-                        <img className='object-cover rounded-t-2xl' src={esportsHeroImg} alt="" />
+                    <Link to='/p2' className='rounded-2xl  '>
+                        <img className='object-cover mt-16 rounded-t-2xl' src={esportsHeroImg} alt="" />
                         <div className='p-5 border-2 border-gray-400/30 rounded-b-2xl hover:bg-white/5'>
                             <div className='flex justify-between items-center pb-5'>
                                 <h1 className='font-bold text-2xl'>EsportsHero</h1>
@@ -86,14 +86,14 @@ const Projects = () => {
                                 The Definitive Guide 2022, These Guides provide strategy's on how to turn your gaming kills into a career.By working in close collaboration with educators, coaches, researchers, analysts, and professional players, Learn2Esport
                             </p>
                         </div>
-                    </div>
+                    </Link>
 
                 </div>
 
 
 
 
-                <div className='rounded-2xl '>
+                <Link to='/p1' className='rounded-2xl '>
                     <img className='object-cover rounded-t-2xl' src={yourmedico} alt="" />
                     <div className='p-5 border-2 border-gray-400/30 rounded-b-2xl hover:bg-white/5'>
                         <div className='flex justify-between items-center pb-5'>
@@ -122,7 +122,7 @@ const Projects = () => {
                             You know when your smile is less than great. It’s why you hide your smile behind your hand or refuse to let anyone see your teeth. When you don’t smile, people tend to judge you harshly and think you’re unhappy even when you’re in a really good mood.
                         </p>
                     </div>
-                </div>
+                </Link>
 
 
 
