@@ -19,9 +19,7 @@ const About = () => {
                     </span>
                 </p>
             </div>
-            <div>
-                <h1>Age</h1>
-            </div>
+            
         </div>
     );
 };
